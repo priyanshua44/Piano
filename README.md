@@ -1,4 +1,4 @@
-# Piano
+# Virtual Piano
 
 This is a Virtual Piano made using Html, Css and Jquery/Javascipt.
 
@@ -7,6 +7,7 @@ This is a Virtual Piano made using Html, Css and Jquery/Javascipt.
 - User can click on the keys with cursor to play sound.
 - User can also use their keyboard to play sound.
 - Every key has unique corresponding sound.
+- Background Animations added using css.
 - Easy Jquery/Javascript codes written to perform each task.
 
 
