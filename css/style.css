@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(112, 176, 232);
+    overflow: hidden;
+}
+
+.flexboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.heading img{
+    width: 200px;
+    border-radius: 0.5rem;
+    box-shadow: -1px 6px 9px 2px black;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem !important;
+    margin-top: 0.5%;
+}
+
+.heading{
+    margin-top: 0.5%;
+    z-index: 3;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    z-index: 4;
+    position: relative;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+    position: relative;
+}
+
+/* .key{
+    width: 30px;
+    height: 300px;
+    background-color: black solid;
+} */
+
+
+.white{
+    background-color: white;
+    width: 50px;
+    height: 250px;
+    color: white;
+    text-indent: -9999px;
+    box-shadow: -1px 6px 9px 2px black;
+}
+
+.border{
+    border: black 2px solid;
+}
+
+.black{
+    background-color: black;
+    width: 25px;
+    height: 170px;
+    margin: 0 39.7px;
+    position: relative;
+    top: -254px;
+    text-indent: -9999px;
+    box-shadow: 0px 6px 16px 1px black;
+}
+
+.key23{
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    border-left: black 2px solid;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBFDF3;
+  opacity: 0.5;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+
+.music{
+    background-image: url('../images/music.png');
+    width: 168px;
+    height: 171px;
+	margin-left: -235px;
+	position: absolute;	
+	animation: myfirst 24s;
+	-webkit-animation: myfirst 24s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+    z-index: 1;
+}
+
+#music{
+	top: 40px;
+}
+
+#music2{
+    top: 300px;
+	animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+}
+
+.heading-2{
+    margin-top: -472px;
+}
