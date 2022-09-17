@@ -34,6 +34,12 @@ h1{
     position: relative;
 }
 
+.heading-2{
+    margin-top: -472px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .container{
     display: flex;
     flex-direction: row;
@@ -92,6 +98,8 @@ h1{
 }
 
 
+/* Animations */
+
 @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
 
 
@@ -137,6 +145,3 @@ h1{
 	-webkit-animation-delay: 6s;
 }
 
-.heading-2{
-    margin-top: -472px;
-}
