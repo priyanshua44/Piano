@@ -20,7 +20,7 @@ This is a Virtual Piano made using Html, Css and Jquery/Javascipt.
 
 ## Live link for the project
 
-  https://priyanshua44.github.io/Virtual-Piano/
+https://virtual-piano-pj.netlify.app
 
 ## Tech Stack Used
 
